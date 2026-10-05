@@ -211,7 +211,7 @@ export function LeadForm() {
               <SelectTrigger
                 id="service"
                 ref={field.ref}
-                className="h-11 w-full text-base sm:text-sm"
+                className="w-full text-base data-[size=default]:h-11 sm:text-sm"
                 aria-invalid={!!errors.service}
                 aria-describedby={errors.service ? "service-error" : undefined}
               >
